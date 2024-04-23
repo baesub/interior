@@ -1,0 +1,30 @@
+body {
+    font-family: 'Sunflower', sans-serif;
+  }
+
+.carousel-item img {
+   
+    filter: grayscale(60%);
+    transition: filter 0.3s ease;
+}
+  
+.carousel-item img:hover {
+    
+    filter: grayscale(0%);
+}
+  
+
+.card {
+    transition: transform 0.3s ease;
+}
+  
+.card:hover {
+    transform: scale(1.03);
+}
+  
+
+
+
+footer {
+    margin-top: 100px;
+}
